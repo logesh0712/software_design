@@ -1,0 +1,57 @@
+Low level design:
+_________________
+	Approach:
+  ______________________
+		1. Requirement gathering:
+			Understand the problem statement. Usually for design problem, statement will be simple and straight forward if you think in bussiness prespective.
+			Ex: Design a ATM machine, design movie booking portal (Those are simple and straight)
+			But you have to approach in use case of user and user flow.(When you are thinking this way, clarify your assumptions with the customer)
+			Ex: Think what is the use case for the end user/admin (This will end up as interface methods mostly)
+				Write down the complete flow of the users. (Ex: user plugs his atm card to card reader inputs his action in screen....etc)
+				By this you would get to know the nouns (classes) in the statement.
+
+		2. Identify classes:
+			Identify and write down all the nouns you identified in above problem statement. Those are your classes. Few classes will be hidden, those can be added later.
+
+		3. Identify Relationship between classes:
+
+		4. Identify properties of classes (member variables)
+
+		5. Identify functionality of classes(member functions)
+
+		6. SOLID principles. (Your classes should obey all SOLID principles for robust and modular)
+			Validate your classes and its functionality with SOLID principles.
+
+	Some links of mine: (old thought process. So just for hint :) 
+  _____________________________________________________
+		https://github.com/logesh0712/LLD 
+		https://github.com/logesh0712/BookMyShow2
+
+*********************************************************
+
+System design:
+______________
+	Approach:
+  ____________________
+		1. Requirement gathering:
+			Same as low level design only. (But you dont have to write deeper on user actions here)
+			Understand the problem statement. Usually for design problem, statement will be simple and straight forward if you think in bussiness prespective.
+			Understand use case of the system.
+
+		2. Identify features:
+			Write down all the features in the system.
+
+		3.Think of right scale:
+			Identifying scale at this step is very important.
+			Because, same system you can design for small scale vs large scale (design would vary.)
+			It is very important to understand the requirement.
+
+		4.Identify important components in your system:
+
+		5.Go deeper on each components.
+
+		6.valiate it with some test cases.
+
+	Some links of mine: (old thought process. So just for hint :)
+  ______________________________________________________________
+		https://github.com/logesh0712/System-Designs 
